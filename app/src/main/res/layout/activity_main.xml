@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#C4ECE9E6"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="180dp"
+        android:layout_height="89dp"
+        android:layout_gravity="clip_vertical"
+        android:layout_margin="50dp"
+        app:srcCompat="@drawable/matri_logo" />
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email ID/Mobile No"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="25sp"
+         />
+
+
+    <Button
+        android:id="@+id/Login_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FFC107"
+        android:padding="10dp"
+        android:text="Login"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/new_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a Member Register Free"
+        android:backgroundTint="#2196F3"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
